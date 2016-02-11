@@ -58,6 +58,6 @@ class TelegramHandler extends MailHandler
             'disable_web_page_preview' => true
         ];
 
-        $this->http->post($sendMessageEndpoint, ['form_data' => $body]);
+        $this->http->post($sendMessageEndpoint, ['form_params' => $body]);
     }
 }
