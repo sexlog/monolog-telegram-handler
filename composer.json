@@ -1,0 +1,20 @@
+{
+    "name": "sexlog/monolog-telegram-handler",
+    "description": "Integrates Monolog logs with Telegram",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raphael Martignoni",
+            "email": "rmartignoni@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.17.*",
+        "guzzlehttp/guzzle": "6.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sexlog\\Monolog": "src"
+        }
+    }
+}
