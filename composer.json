@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sexlog\\Monolog": "src"
+            "sexlog\\Monolog\\": "src"
         }
     }
 }
