@@ -10,7 +10,8 @@
     ],
     "require": {
         "monolog/monolog": "1.17.*",
-        "guzzlehttp/guzzle": "6.0.*"
+        "guzzlehttp/guzzle": "6.0.*",
+        "php-amqplib/php-amqplib": "v2.6.1"
     },
     "autoload": {
         "psr-4": {
